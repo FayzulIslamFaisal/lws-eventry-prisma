@@ -3,10 +3,10 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <div className="container mx-auto text-center mt-20">
-      <h2>Not Found</h2>
-      <p>Could not find requested resource</p>
+      <h2 className="text-3xl mb-4 font-bold capitalize ">Not Found</h2>
+      <p className="text-2xl pb-4">Could not find requested resource</p>
       <Link
-        className=" bg-red-600 px-4 py-1 rounded-2xl text-white border-2"
+        className=" bg-white px-8 py-1 rounded-2xl text-black border-2 text-2xl"
         href="/"
       >
         Return Home
